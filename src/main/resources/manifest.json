@@ -1,12 +1,12 @@
 {
-  "Group": "dev.hytalemodding",
-  "Name": "ExamplePlugin",
+  "Group": "com.wateraneurotoxin",
+  "Name": "Memento Mori",
   "Version": "1.0.0",
   "Description": "Description of your plugin",
   "Authors": [
     {
-      "Name": "Your Name",
-      "Email": "your.email@example.com",
+      "Name": "WaterANeurotoxin",
+      "Email": "sockmit2007@gmail.com",
       "Url": "https://your-website.com"
     }
   ],
@@ -15,6 +15,6 @@
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "IncludesAssetPack": false,
-  "Main": "dev.hytalemodding.ExamplePlugin"
+  "IncludesAssetPack": true,
+  "Main": "com.wateraneurotoxin.MementoMoriPlugin"
 }

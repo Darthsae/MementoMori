@@ -1,0 +1,5 @@
+Weapon_Shield_Cobalt_Runic.name = Cobalt Runic Shield
+Weapon_Shield_Cobalt_Runic.description = A strange Cobalt Shield with runic symbols inscribed. Thought to be a relic of an old civilization.
+
+Recipe_Weapon_Shield_Cobalt_Runic.name = [TMP] Recipe: Cobalt Runic Shield
+Recipe_Weapon_Shield_Cobalt_Runic.description = [TMP] Teaches the <item is="Weapon_Shield_Cobalt_Runic"/> recipe.

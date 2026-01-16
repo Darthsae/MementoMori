@@ -1,0 +1,70 @@
+{
+  "Parent": "Template_Weapon_Shield",
+  "TranslationProperties": {
+    "Name": "items.Weapon_Shield_Cobalt_Runic.name",
+    "Description": "items.Weapon_Shield_Cobalt_Runic.description"
+  },
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Model": "Items/Weapons/Shield/Cobalt_Runic.blockymodel",
+  "Texture": "Items/Weapons/Shield/Cobalt_Runic_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Shield_Cobalt_Runic.png",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": true,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Shield"
+        ],
+        "RequiredTierLevel": 2,
+        "Id": "Armor_Bench"
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Shield_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 15,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    },
+    "Guard_Bash_Damage": {
+      "Interactions": [
+        {
+          "$Comment": "Damage \u0026 Effects on a successful hit with the guard shove attack",
+          "Parent": "Weapon_Shield_Secondary_Guard_Bash_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 8
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Shield_T2_Impact",
+            "LocalSoundEventId": "SFX_Shield_T2_Impact"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Containers": [
+          {
+            "Type": "Single",
+            "Weight": 75,
+            "Item": {
+              "ItemId": "Deco_Bone_Skulls"
+            }
+          },
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Deco_Bone_Ribs"
+            },
+            "Weight": 50
+          },
+          {
+            "Type": "Single",
+            "Weight": 75,
+            "Item": {
+              "ItemId": "Ingredient_Bone_Fragment",
+              "QuantityMin": 2,
+              "QuantityMax": 5
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
