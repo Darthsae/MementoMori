@@ -14,16 +14,14 @@
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hytale.mods.dir>C:\Users\sockm\AppData\Roaming\Hytale\UserData\Mods</hytale.mods.dir>
-        <hytale.server.jar>C:\Users\sockm\AppData\Roaming\Hytale\install\release\package\game\latest\Server\HytaleServer.jar</hytale.server.jar>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.hypixel.hytale</groupId>
-            <artifactId>Server</artifactId>
-            <version>1.0.0</version>
-            <scope>system</scope>
-            <systemPath>${hytale.server.jar}</systemPath>
+            <artifactId>HytaleServer-parent</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

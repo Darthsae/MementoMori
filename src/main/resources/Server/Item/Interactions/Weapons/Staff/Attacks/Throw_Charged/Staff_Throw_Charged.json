@@ -1,0 +1,98 @@
+{
+  "Type": "Simple",
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.167,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can\u0027t be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Staff_Throw_Charged_StaminaCost",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                {
+                  "Type": "ChangeStat",
+                  "StatModifiers": {
+                    "Stamina": -5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Staff_Throw_Charged_StaminaRegenDelay",
+            "DefaultOk": true,
+            "DefaultValue": {
+              "Interactions": [
+                {
+                  "Type": "ChangeStat",
+                  "Behaviour": "Set",
+                  "StatModifiers": {
+                    "StaminaRegenDelay": -1.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Staff_Throw_Cost"
+              ]
+            },
+            "Var": "Staff_Throw_Charged_Cost"
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Staff_Throw_Launch"
+              ]
+            },
+            "Var": "Staff_Throw_Charged_Launch"
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Staff_Throw_Effect"
+              ]
+            },
+            "Var": "Staff_Throw_Charged_Effect"
+          }
+        ]
+      }
+    ]
+  },
+  "Failed": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        "Staff_Throw_Fail"
+      ]
+    },
+    "Var": "Staff_Throw_Charged_Fail"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Skeleton_Staff",
+    "ItemAnimationId": "CastSummon"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 1,
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "Projectile",
+        "Config": "Projectile_Config_Spectre_Corruption_Orb",
+        "RunTime": 0.2,
+        "Effects": {
+          "WorldSoundEventId": "SFX_Unarmed_Swing"
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.01
+      },
+      {
+        "Type": "Projectile",
+        "Config": "Projectile_Config_Spectre_Corruption_Orb",
+        "RunTime": 0.2,
+        "Effects": {
+          "WorldSoundEventId": "SFX_Unarmed_Swing"
+        }
+      },
+      {
+        "Type": "Simple",
+        "RunTime": 0.01
+      },
+      {
+        "Type": "Projectile",
+        "Config": "Projectile_Config_Spectre_Corruption_Orb",
+        "RunTime": 0.2,
+        "Effects": {
+          "WorldSoundEventId": "SFX_Unarmed_Swing"
+        }
+      }
+    ],
+    "Tags": {
+      "AimingReference": []
+    }
+  }
+}
+

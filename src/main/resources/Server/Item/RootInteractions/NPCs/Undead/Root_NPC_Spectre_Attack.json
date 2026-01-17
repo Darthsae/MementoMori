@@ -1,0 +1,22 @@
+{
+  "Interactions": [
+    {
+      "Type": "Chaining",
+      "ChainId": "Slashes",
+      "ChainingAllowance": 15,
+      "Next": [
+        "Spectre_Staff_Spin_Swing_Left",
+        "Spectre_Staff_Spin_Swing_Right",
+        "Spectre_Staff_Spin_Swing_Left_Heavy",
+        "Spectre_Staff_Spin_Swing_Right_Heavy",
+        "Spectre_Staff_Corruption_Orb",
+        "Skeleton_Sand_Soldier_Spear_Stab"
+      ]
+    }
+  ],
+  "Tags": {
+    "Attack": [
+      "Melee"
+    ]
+  }
+}

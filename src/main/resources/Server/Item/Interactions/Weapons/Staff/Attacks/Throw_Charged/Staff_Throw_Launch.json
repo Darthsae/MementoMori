@@ -1,0 +1,16 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Spear",
+    "ItemAnimationId": "ThrowCharged",
+    "LocalSoundEventId": "SFX_Spear_Throw_Local",
+    "WorldSoundEventId": "SFX_Spear_Throw"
+  },
+  "Next": {
+    "Type": "Projectile",
+    "Config": "Projectile_Config_Spectre_Corruption_Orb",
+    "Effects": {
+      "WorldSoundEventId": "SFX_Unarmed_Swing"
+    }
+  }
+}

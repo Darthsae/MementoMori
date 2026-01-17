@@ -1,7 +1,7 @@
 {
   "Group": "com.wateraneurotoxin",
   "Name": "Memento Mori",
-  "Version": "1.0.0",
+  "Version": "1.2.0",
   "Description": "Description of your plugin",
   "Authors": [
     {
@@ -16,5 +16,5 @@
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,
-  "Main": "com.wateraneurotoxin.MementoMoriPlugin"
+  "Main": "com.wateraneurotoxin.mementomori.MementoMoriPlugin"
 }

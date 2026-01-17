@@ -1,4 +1,4 @@
-package com.wateraneurotoxin.commands;
+package com.wateraneurotoxin.mementomori.commands;
 
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.command.system.AbstractCommand;
@@ -17,7 +17,7 @@ public class ExampleCommand extends AbstractCommand {
     @Nullable
     @Override
     protected CompletableFuture<Void> execute(@Nonnull CommandContext context) {
-        context.sendMessage(Message.raw("Hello from ExampleCommand!"));
+        context.sendMessage(Message.raw("This is just placeholder."));
         return CompletableFuture.completedFuture(null);
     }
 

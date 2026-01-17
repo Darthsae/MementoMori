@@ -1,0 +1,168 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Weapon_Staff_Spectre.name",
+    "Description": "items.Weapon_Staff_Spectre.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Model": "Items/Weapons/Staff/Onyxium.blockymodel",
+  "Texture": "Items/Weapons/Staff/Onyxium_Texture.png",
+  "PlayerAnimationsId": "Staff",
+  "Interactions": {
+    "Primary": "Staff_Spear_Attack",
+    "Secondary": "Staff_Primary"
+  },
+  "InteractionVars": {
+    "Spear_Stab_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Spear_Stab_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Spear_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Spear_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            },
+            "Type": "Absolute"
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Charged": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Cast_Summon_Charged",
+          "Costs": {
+            "Mana": 35
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Cast_Cost",
+          "StatModifiers": {
+            "Mana": -35
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Launch": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Effects": {
+            "ItemAnimationId": "CastSummonCharged"
+          },
+          "$Comment": "Prepare Delay",
+          "RunTime": 0.15,
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "Projectile",
+                "Config": "Projectile_Config_Spectre_Corruption_Orb",
+                "Effects": {
+                  "WorldSoundEventId": "SFX_Unarmed_Swing"
+                }
+              },
+              {
+                "Type": "Simple",
+                "RunTime": 0.15
+              },
+              {
+                "Type": "Projectile",
+                "Config": "Projectile_Config_Spectre_Corruption_Orb",
+                "Effects": {
+                  "WorldSoundEventId": "SFX_Unarmed_Swing"
+                }
+              },
+              {
+                "Type": "Simple",
+                "RunTime": 0.15
+              },
+              {
+                "Type": "Projectile",
+                "Config": "Projectile_Config_Spectre_Corruption_Orb",
+                "Effects": {
+                  "WorldSoundEventId": "SFX_Unarmed_Swing"
+                }
+              }
+            ],
+            "Tags": {
+              "AimingReference": []
+            }
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Effect": "Staff_Cast_Effect",
+    "Staff_Cast_Summon_Fail": "Staff_Cast_Fail",
+    "Staff_Throw_Charged_Charged": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Throw_Charged",
+          "Costs": {
+            "Mana": 15
+          }
+        }
+      ]
+    },
+    "Staff_Throw_Charged_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Throw_Cost",
+          "StatModifiers": {
+            "Mana": -15
+          }
+        }
+      ]
+    },
+    "Staff_Throw_Charged_Launch": "Staff_Throw_Launch",
+    "Staff_Throw_Charged_Effect": "Staff_Throw_Effect",
+    "Staff_Throw_Charged_Fail": "Staff_Throw_Fail",
+    "Spear_Swing_Left_Damage": "Spear_Swing_Left_Damage",
+    "Spear_Swing_Right_Damage": "Spear_Swing_Right_Damage",
+    "Spear_Swing_Left_Effect": "Spear_Swing_Left_Effect",
+    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect"
+  },
+  "IconProperties": {
+    "Scale": 0.28,
+    "Translation": [
+      -53,
+      -52
+    ],
+    "Rotation": [
+      45,
+      90,
+      0
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Icon": "Icons/ItemsGenerated/Weapon_Staff_Onyxium.png",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Staff"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Wood"
+}

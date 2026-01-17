@@ -1,0 +1,92 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Spawner_Spectre.name",
+    "Description": "items.Spawner_Spectre.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Spectre_Spawner.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "State": {
+      "Id": "SpawnMarkerBlock",
+      "SpawnMarker": "Spectre",
+      "MarkerOffset": {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      }
+    },
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Miscellaneous/SpectreAnchor.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/SpectreAnchor_Texture.png"
+      }
+    ],
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#849494",
+    "HitboxType": "Block_Half"
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Translation": [
+      0.352,
+      -17
+    ],
+    "Rotation": [
+      7,
+      43,
+      10
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Portal"
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 3,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Rock_Stone_Cobble",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 25
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 2
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

@@ -3,3 +3,12 @@ Weapon_Shield_Cobalt_Runic.description = A strange Cobalt Shield with runic symb
 
 Recipe_Weapon_Shield_Cobalt_Runic.name = [TMP] Recipe: Cobalt Runic Shield
 Recipe_Weapon_Shield_Cobalt_Runic.description = [TMP] Teaches the <item is="Weapon_Shield_Cobalt_Runic"/> recipe.
+
+Furniture_Forgotten_Nytha_Chest.name = Forgotten Nytha Chest
+Furniture_Forgotten_Nytha_Chest_Large.name = Forgotten Nytha Large Chest
+
+Spawner_Spectre.name = Spectre Anchor
+Spawner_Spectre.description = A magic anchor to bind a spirit to the world, tethering them back to the point once everyday.
+
+Weapon_Staff_Spectre.name = Spectre Staff
+Weapon_Staff_Spectre.description = This staff was made by an old sect of mages from Forgotten Nytha. It is considered quite rare in modern times.

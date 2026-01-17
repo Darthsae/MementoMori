@@ -1,0 +1,53 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Modify": {
+    "MaxHealth": 200,
+    "HearingRange": 8,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "DropList": "Drop_Spectre",
+    "Appearance": "Spectre",
+    "Weapons": [
+      "Weapon_Staff_Spectre"
+    ],
+    "OffHand": [],
+    "Attack": "Root_NPC_Spectre_Attack",
+    "AttackDistance": 3.5,
+    "BlockProbability": 10,
+    "DesiredAttackDistanceRange": [
+      2,
+      3.5
+    ],
+    "_InteractionVars": {
+      "Melee_Damage": {
+        "Interactions": [
+          {
+            "Parent": "NPC_Attack_Melee_Damage",
+            "$Comment": "Sets damage and onhit effects",
+            "DamageCalculator": {
+              "Type": "Absolute",
+              "BaseDamage": {
+                "Physical": 45
+              },
+              "RandomPercentageModifier": 0.1
+            }
+          }
+        ]
+      }
+    },
+    "IsMemory": true,
+    "MemoriesCategory": "Mythic",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "npcRoles.Spectre.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

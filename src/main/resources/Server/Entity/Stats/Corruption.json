@@ -1,0 +1,9 @@
+{
+  "Id": "Corruption",
+  "InitialValue": 0.0,
+  "Min": 0.0,
+  "Max": 100.0,
+  "Shared": true,
+  "IgnoreInvulnerability": false,
+  "ResetType": "InitialValue"
+}

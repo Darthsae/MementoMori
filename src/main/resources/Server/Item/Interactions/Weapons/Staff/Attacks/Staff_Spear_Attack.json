@@ -1,0 +1,21 @@
+{
+  "Type": "Charging",
+  "Effects": {
+    "ItemPlayerAnimationsId": "Spear",
+    "ItemAnimationId": "ThrowCharging",
+    "LocalSoundEventId": "SFX_Spear_Throw_Charge_Local",
+    "WorldSoundEventId": "SFX_Spear_Throw_Charge",
+    "ClearAnimationOnFinish": true
+  },
+  "AllowIndefiniteHold": true,
+  "Next": {
+    "0": {
+      "Type": "Chaining",
+      "ChainingAllowance": 1.25,
+      "Next": [
+        "Staff_Stab"
+      ]
+    },
+    "1": "Staff_Throw_Charged"
+  }
+}

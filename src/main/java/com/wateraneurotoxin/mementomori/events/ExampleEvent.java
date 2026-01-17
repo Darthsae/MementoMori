@@ -1,4 +1,4 @@
-package com.wateraneurotoxin.events;
+package com.wateraneurotoxin.mementomori.events;
 
 import com.hypixel.hytale.server.core.Message;
 import com.hypixel.hytale.server.core.entity.entities.Player;
