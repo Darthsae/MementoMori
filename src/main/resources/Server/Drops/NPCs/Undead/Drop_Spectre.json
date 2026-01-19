@@ -9,7 +9,7 @@
           {
             "Type": "Single",
             "Item": {
-              "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+              "ItemId": "Ingredient_Spectral_Remnant",
               "QuantityMin": 1,
               "QuantityMax": 3
             }

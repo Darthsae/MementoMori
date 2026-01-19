@@ -1,0 +1,26 @@
+items.Weapon_Shield_Cobalt_Runic.name = Cobalt Runic Shield
+items.Weapon_Shield_Cobalt_Runic.description = A strange Cobalt Shield with runic symbols inscribed. Thought to be a relic of an old civilization.
+
+items.Recipe_Weapon_Shield_Cobalt_Runic.name = [TMP] Recipe: Cobalt Runic Shield
+items.Recipe_Weapon_Shield_Cobalt_Runic.description = [TMP] Teaches the <item is="Weapon_Shield_Cobalt_Runic"/> recipe.
+
+items.Furniture_Forgotten_Nytha_Chest.name = Forgotten Nytha Chest
+items.Furniture_Forgotten_Nytha_Chest_Large.name = Forgotten Nytha Large Chest
+
+items.Spawner_Spectre.name = Spectre Anchor
+items.Spawner_Spectre.description = A magic anchor to bind a spirit to the world, tethering them back to the point once everyday.
+
+items.Weapon_Staff_Spectre.name = Spectre Staff
+items.Weapon_Staff_Spectre.description = This staff was made by an old sect of mages from Forgotten Nytha. It is considered quite rare in modern times.
+
+items.Weapon_Tome_Necromancy_Soulfire.name = Soulfire Tome
+items.Weapon_Tome_Necromancy_Soulfire.description = A rotten tome of death and decay. Not for the faint of heart.
+
+items.Egg_Spawner_Omen.name = Omen Catalyst
+items.Egg_Spawner_Omen.description = A cage containing a vengeful spirit, bound to serve the holder of this artifact for eternity. It is said that destroying these cages can bring about a most miserable fate.
+
+items.Ingredient_Spectral_Remnant.name = Spectral Remnant
+items.Ingredient_Spectral_Remnant.description = The remnant of some spirits and beings linger on after their demise. This is a prized possession for necromancers.
+
+npcRoles.Spectre.name = Spectre
+npcRoles.Omen.name = Omen

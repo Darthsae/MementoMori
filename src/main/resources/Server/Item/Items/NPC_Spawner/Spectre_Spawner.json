@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Spawner_Spectre.name",
-    "Description": "items.Spawner_Spectre.description"
+    "Name": "server.items.Spawner_Spectre.name",
+    "Description": "server.items.Spawner_Spectre.description"
   },
   "Icon": "Icons/ItemsGenerated/Spectre_Spawner.png",
   "Categories": [

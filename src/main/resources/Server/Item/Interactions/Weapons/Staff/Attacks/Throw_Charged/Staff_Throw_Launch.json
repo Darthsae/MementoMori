@@ -8,7 +8,7 @@
   },
   "Next": {
     "Type": "Projectile",
-    "Config": "Projectile_Config_Spectre_Corruption_Orb",
+    "Config": "Projectile_Config_Spectre_Spectral_Orb",
     "Effects": {
       "WorldSoundEventId": "SFX_Unarmed_Swing"
     }

@@ -1,0 +1,62 @@
+{
+  "Type": "StatsCondition",
+  "Costs": {
+    "Mana": 25
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.167,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Tome_Cast_Cost"
+              ]
+            },
+            "Var": "Tome_Cast_Secondary_Cost"
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Tome_Cast_Launch"
+              ]
+            },
+            "Var": "Tome_Cast_Secondary_Launch"
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Tome_Cast_Effect"
+              ]
+            },
+            "Var": "Tome_Cast_Secondary_Effect"
+          }
+        ]
+      }
+    ]
+  },
+  "Failed": {
+    "Type": "Replace",
+    "DefaultValue": {
+      "Interactions": [
+        "Tome_Cast_Fail"
+      ]
+    },
+    "Var": "Tome_Cast_Secondary_Fail"
+  }
+}

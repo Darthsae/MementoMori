@@ -22,7 +22,7 @@
           "DamageCalculator": {
             "Class": "Charged",
             "BaseDamage": {
-              "Ice": 15
+              "Necrotic": 15
             }
           },
           "DamageEffects": {

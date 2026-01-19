@@ -14,10 +14,7 @@
     "NameTranslationKey": {
       "Compute": "NameTranslationKey"
     },
-    "DropList": {
-      "Value": "Goblin_Elite_Scavenger_Sword",
-      "Description": "Drop Items"
-    }
+    "DropList": "Goblin_Elite_Scavenger_Sword"
   },
   "Parameters": {
     "NameTranslationKey": {

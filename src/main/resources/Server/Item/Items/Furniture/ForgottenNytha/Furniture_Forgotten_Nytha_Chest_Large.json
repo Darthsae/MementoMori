@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "items.Furniture_Forgotten_Nytha_Chest_Large.name"
+    "Name": "server.items.Furniture_Forgotten_Nytha_Chest_Large.name"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [

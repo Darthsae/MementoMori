@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Weapon_Shield",
   "TranslationProperties": {
-    "Name": "items.Weapon_Shield_Cobalt_Runic.name",
-    "Description": "items.Weapon_Shield_Cobalt_Runic.description"
+    "Name": "server.items.Weapon_Shield_Cobalt_Runic.name",
+    "Description": "server.items.Weapon_Shield_Cobalt_Runic.description"
   },
   "Quality": "Rare",
   "ItemLevel": 35,

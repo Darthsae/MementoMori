@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Recipe_Weapon_Shield_Cobalt_Runic.name",
-    "Description": "items.Recipe_Weapon_Shield_Cobalt_Runic.description"
+    "Name": "server.items.Recipe_Weapon_Shield_Cobalt_Runic.name",
+    "Description": "server.items.Recipe_Weapon_Shield_Cobalt_Runic.description"
   },
   "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
   "Quality": "Rare",

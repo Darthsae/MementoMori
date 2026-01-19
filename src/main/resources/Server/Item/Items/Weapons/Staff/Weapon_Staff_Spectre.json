@@ -1,15 +1,15 @@
 {
   "TranslationProperties": {
-    "Name": "items.Weapon_Staff_Spectre.name",
-    "Description": "items.Weapon_Staff_Spectre.description"
+    "Name": "server.items.Weapon_Staff_Spectre.name",
+    "Description": "server.items.Weapon_Staff_Spectre.description"
   },
   "Categories": [
     "Items.Weapons"
   ],
   "Quality": "Legendary",
   "ItemLevel": 40,
-  "Model": "Items/Weapons/Staff/Onyxium.blockymodel",
-  "Texture": "Items/Weapons/Staff/Onyxium_Texture.png",
+  "Model": "Items/Weapons/Staff/Spectre.blockymodel",
+  "Texture": "Items/Weapons/Staff/Spectre_Texture.png",
   "PlayerAnimationsId": "Staff",
   "Interactions": {
     "Primary": "Staff_Spear_Attack",
@@ -42,7 +42,7 @@
         }
       ]
     },
-    "Staff_Cast_Summon_Charged": {
+    "Staff_Cast_Summon_Charged_Var": {
       "Interactions": [
         {
           "Parent": "Staff_Cast_Summon_Charged",
@@ -139,22 +139,35 @@
     "Spear_Swing_Left_Damage": "Spear_Swing_Left_Damage",
     "Spear_Swing_Right_Damage": "Spear_Swing_Right_Damage",
     "Spear_Swing_Left_Effect": "Spear_Swing_Left_Effect",
-    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect"
+    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect",
+    "Staff_Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Swing_Down_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 8
+            }
+          }
+        }
+      ]
+    },
+    "Staff_Swing_Down_Effect": "Staff_Swing_Down_Effect"
   },
   "IconProperties": {
     "Scale": 0.28,
-    "Translation": [
-      -53,
-      -52
-    ],
     "Rotation": [
       45,
       90,
       0
+    ],
+    "Translation": [
+      -53,
+      -52
     ]
   },
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "Icon": "Icons/ItemsGenerated/Weapon_Staff_Onyxium.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Staff_Spectre.png",
   "Tags": {
     "Type": [
       "Weapon"

@@ -1,0 +1,134 @@
+{
+  "Model": "Lich_Bolt",
+  "LaunchForce": 50,
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 4,
+    "TerminalVelocityAir": 100,
+    "TerminalVelocityWater": 100,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0.0,
+    "SticksVertically": true
+  },
+  "LaunchWorldSoundEventId": "SFX_Wand_Fire_Shoot",
+  "Interactions": {
+    "ProjectileHit": {
+      "Cooldown": {
+        "Cooldown": 0
+      },
+      "Interactions": [
+        {
+          "Parent":"Explode_Generic",
+          "Config": {
+            "DamageBlocks": false,
+            "EntityDamage": 10.0,
+            "EntityDamageRadius": 2,
+            "EntityDamageFalloff": 0
+          },
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Soul_Explosion_Small",
+                "TargetEntityPart": "Entity",
+                "Scale": 1,
+                "PositionOffset": {
+                  "Y": -0.5
+                }
+              }
+            ],
+            "WorldSoundEventId": "SFX_Staff_Flame_Fireball_Impact"
+          }
+        },
+        {
+          "Parent": "DamageEntityParent",
+          "DamageCalculator": {
+            "Class": "Charged",
+            "BaseDamage": {
+              "Necrotic": 60
+            }
+          },
+          "DamageEffects": {
+            "Knockback": {
+              "Type": "Force",
+              "VelocityConfig": {
+                "AirResistance": 0.97,
+                "AirResistanceMax": 0.96,
+                "GroundResistance": 0.94,
+                "GroundResistanceMax": 0.3,
+                "Threshold": 3.0,
+                "Style": "Exp"
+              },
+              "Direction": {
+                "X": 0.0,
+                "Y": 1,
+                "Z": -3
+              },
+              "Force": 8,
+              "VelocityType": "Add"
+            },
+            "WorldParticles": [
+              {
+                "SystemId": "Impact_Soulfire"
+              }
+            ],
+            "WorldSoundEventId": "SFX_Fireball_Death"
+          }
+        },
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Rot",
+          "Entity": "Target"
+        },
+        {
+          "Type": "RemoveEntity",
+          "Entity": "User"
+        }
+      ]
+    },
+    "ProjectileMiss": {
+      "Cooldown": {
+        "Cooldown": 0
+      },
+      "Interactions": [
+        {
+          "Parent":"Explode_Generic",
+          "Config": {
+            "DamageBlocks": false,
+            "EntityDamage": 10.0,
+            "EntityDamageRadius": 2,
+            "EntityDamageFalloff": 0
+          },
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Soul_Explosion_Small",
+                "TargetEntityPart": "Entity",
+                "Scale": 1,
+                "PositionOffset": {
+                  "Y": -0.5
+                }
+              }
+            ],
+            "WorldSoundEventId": "SFX_Staff_Flame_Fireball_Impact"
+          }
+        },
+        {
+          "Type": "Simple",
+          "RunTime": 0,
+          "Effects": {
+            "WorldSoundEventId": "SFX_Fireball_Miss",
+            "WorldParticles": [
+              {
+                "SystemId": "Soul_Explosion_Medium"
+              }
+            ]
+          }
+        },
+        {
+          "Type": "RemoveEntity",
+          "Entity": "User"
+        }
+      ]
+    }
+  }
+}

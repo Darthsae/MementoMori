@@ -1,0 +1,146 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Tome_Necromancy_Soulfire.name",
+    "Description": "server.items.Weapon_Tome_Necromancy_Soulfire.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Icon": "Icons/ItemsGenerated/Weapon_Tome_Necromancy_Soulfire.png",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Model": "Items/Weapons/Tome/Necromancy/Soulfire.blockymodel",
+  "Texture": "Items/Weapons/Tome/Necromancy/Soulfire_Texture.png",
+  "PlayerAnimationsId": "Spellbook",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -10,
+      -10
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Spectral_Remnant",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Misc"
+        ],
+        "RequiredTierLevel": 2,
+        "Id": "Arcanebench"
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Tome_Primary",
+    "Secondary": "Tome_Secondary"
+  },
+  "InteractionVars": {
+    "Tome_Cast_Primary_Charged_Var": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Primary_Charged",
+          "Costs": {
+            "Mana": 5
+          }
+        }
+      ]
+    },
+    "Tome_Cast_Primary_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Cost",
+          "StatModifiers": {
+            "Mana": -5
+          }
+        }
+      ]
+    },
+    "Tome_Cast_Primary_Launch": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Launch",
+          "Config": "Projectile_Config_Lich_Bolt"
+        }
+      ]
+    },
+    "Tome_Cast_Primary_Effect": "Tome_Cast_Effect",
+    "Tome_Cast_Primary_Fail": "Tome_Cast_Fail",
+    "Tome_Cast_Secondary_Charged_Var": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Secondary_Charged",
+          "Costs": {
+            "Mana": 15
+          }
+        }
+      ]
+    },
+    "Tome_Cast_Secondary_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Cost",
+          "StatModifiers": {
+            "Mana": -15
+          }
+        }
+      ]
+    },
+    "Tome_Cast_Secondary_Launch": {
+      "Interactions": [
+        {
+          "Parent": "Tome_Cast_Launch",
+          "Config": "Projectile_Config_Ice_Bolt"
+        }
+      ]
+    },
+    "Tome_Cast_Secondary_Effect": "Tome_Cast_Effect",
+    "Tome_Cast_Secondary_Fail": "Tome_Cast_Fail",
+    "Block_Effect": "Block_Swing_Down_Effect",
+    "Block_Swing_Left_Damage": "Block_Swing_Left_Damage",
+    "Block_Swing_Right_Damage": "Block_Swing_Right_Damage",
+    "Block_Swing_Down_Damage": "Block_Swing_Down_Damage"
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxStack": 1,
+  "Scale": 1.2,
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Tome",
+      "Magic"
+    ],
+    "ArcaneBranch": [
+      "Necromancy"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Books"
+}

@@ -1,0 +1,20 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Soulfire_Projectile_Soulfire_Sparks",
+      "PositionOffset": {
+        "X": 0.0,
+        "Z": 0.0
+      },
+      "FixedRotation": false
+    },
+    {
+      "SpawnerId": "Soulfire_Projectile_Soulfire_Trail"
+    },
+    {
+      "SpawnerId": "Soulfire_Projectile_Soulfire_Core"
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

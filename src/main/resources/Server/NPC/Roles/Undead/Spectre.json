@@ -46,7 +46,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "npcRoles.Spectre.name",
+      "Value": "server.npcRoles.Spectre.name",
       "Description": "Translation key for NPC name display"
     }
   }

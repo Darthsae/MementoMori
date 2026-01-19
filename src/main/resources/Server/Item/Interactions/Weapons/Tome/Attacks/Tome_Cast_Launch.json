@@ -1,0 +1,8 @@
+{
+  "Type": "Projectile",
+  "RunTime": 0.25,
+  "Effects": {
+    "ItemAnimationId": "CastHurlCharged"
+  },
+  "Config": "Projectile_Config_Spectre_Corruption_Orb"
+}
