@@ -15,7 +15,7 @@
   "DamageCalculatorCooldown": 3,
   "DamageCalculator": {
     "BaseDamage": {
-      "Poison": 10
+      "Necrotic": 10
     }
   },
   "DamageEffects": {
