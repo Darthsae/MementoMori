@@ -5,10 +5,23 @@ items.Recipe_Weapon_Shield_Cobalt_Runic.name = [TMP] Recipe: Cobalt Runic Shield
 items.Recipe_Weapon_Shield_Cobalt_Runic.description = [TMP] Teaches the <item is="Weapon_Shield_Cobalt_Runic"/> recipe.
 
 items.Furniture_Forgotten_Nytha_Chest.name = Forgotten Nytha Chest
+items.Furniture_Forgotten_Nytha_Chest.description = No one actually knows where they came from, where they went, or when they were there.
 items.Furniture_Forgotten_Nytha_Chest_Large.name = Forgotten Nytha Large Chest
+
+items.Furniture_Forgotten_Nytha_Candle.name = Forgotten Nytha Candle
+items.Furniture_Forgotten_Nytha_Candle.description = Oh, Forgotten Nytha. We know of you so. We weep for what you where. Thou hail from time immemorial, and bless only us few with knowledge of your purpose. You who gave us the secrets of life and death, why still did they look down upon you? Did you truly deserve the fate you were given? I mourn for all that could have been, as do we all. Oh, Forgotten Nytha. The tragedy of the Abyss rings true.
 
 items.Spawner_Spectre.name = Spectre Anchor
 items.Spawner_Spectre.description = A magic anchor to bind a spirit to the world, tethering them back to the point once everyday.
+
+items.Bench_Forsaken_Altar.name = Forsaken Altar
+items.Bench_Forsaken_Altar.description = An altar to the old kin. They are not satisfied until the end. Bring them more, they may grant you pity. Tithe thy lords, for Forgotten Nytha was not enough. They require more. Bring them the world, they will grant you your pittance.
+
+items.Recipe_Bench_Forsaken_Altar.name = [TMP] Recipe: Forsaken Altar
+items.Recipe_Bench_Forsaken_Altar.description = [TMP] Teaches the <item is="Bench_Forsaken_Altar"/> recipe.
+
+items.Ingredient_Recipe_Bench_Forsaken_Altar_Scrap.name = Ancient Blueprint Scraps
+items.Ingredient_Recipe_Bench_Forsaken_Altar_Scrap.description = A scrap of an ancient blueprint for a construction needed to tribute to things long lost.
 
 items.Weapon_Staff_Spectre.name = Spectre Staff
 items.Weapon_Staff_Spectre.description = This staff was made by an old sect of mages from Forgotten Nytha. It is considered quite rare in modern times.
@@ -22,5 +35,40 @@ items.Egg_Spawner_Omen.description = A cage containing a vengeful spirit, bound 
 items.Ingredient_Spectral_Remnant.name = Spectral Remnant
 items.Ingredient_Spectral_Remnant.description = The remnant of some spirits and beings linger on after their demise. This is a prized possession for necromancers.
 
+items.Lore_Nythan_Book.name = Nythan Book
+items.Lore_Nythan_Book.description = Where did you... Impossible. No. No no no. This is impossible. This can't be real. It's not real. It isn't.
+
 npcRoles.Spectre.name = Spectre
 npcRoles.Omen.name = Omen
+npcRoles.Forgotten_Nytha_Merchant.name = Forgotten Nytha Merchant
+npcRoles.Great_Lord_Vernaken.name = Great Lord Vernaken
+npcRoles.Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage.name = Forgotten Nytha Fifth Regiment Mage
+npcRoles.Skeleton_Forgotten_Nytha_Fifth_Regiment_Soldier.name = Forgotten Nytha Fifth Regiment Soldier
+npcRoles.Servas.name = Servas
+
+barter.forgotten_nytha_merchant.title = Forgotten Nytha Merchant
+
+lore.First_Edict_Of_The_Uplic_Sovereign.title = First Edict of the Uplic Sovereign
+lore.First_Edict_Of_The_Uplic_Sovereign.author = Principality Severus, Scribe of the Heavens
+lore.First_Edict_Of_The_Uplic_Sovereign.page0.text = Unto that which lay entombed in the abyss. All loyal to the sacrosanct covenant of the heavens heed this call; The denizens of Nytha pledge their fealty to the Mother of the Depths. Sanctification of these despoiled grounds must commence, rend these heretics; split flesh from bone, body from soul. Such is the Uplic Sovereign's edict, and unto all ye faithful shall it be fulfilled.
+
+lore.Cry_Of_The_Heavens.title = Cry of the Heavens
+lore.Cry_Of_The_Heavens.author = Commander Vauch
+lore.Cry_Of_The_Heavens.page0.text = Oh look upon these wretches! They pray to their archdevil still yet! That wench of blood and bone, defiler of life and death! It is by the Uplic Sovereign's DEMAND that we split their skulls in two! Faithful, hear me now! We shall end the Nythan scum, and sanctify the Abyss which they call home! GRANT THEM NO REFUGE, NO RESPITE! THIS IS OUR COMMAND, AND WE SHALL FULFILL IT! FOR THE SOVEREIGN!
+
+lore.Oh_Forgotten_Nytha.title = Oh, Forgotten Nytha
+lore.Oh_Forgotten_Nytha.author = Arastetes
+lore.Oh_Forgotten_Nytha.page0.text = Oh, Forgotten Nytha.\nOh, Sovereign of the Depths.\nWhere now rest the Bythe?\nOnce upon the Welig steppes.\nFor heavens cast cloying gaze,\nunto Nytha's splendor.\nThose divine sought to raze,\nthat yet still tender.
+
+lore.Lament_Of_The_Disillusioned.title = Lament of the DisillusionedS
+lore.Lament_Of_The_Disillusioned.author = Desmonda Bythe
+lore.Lament_Of_The_Disillusioned.page0.text = Curse the Sovereign upon their alabaster throne. Curse the angels in their marble halls. Damn the heavens gilded in quartz. Spurn the god which reign from ivory spire. Light so righteous, yet not did they care. Saught to oust our Queen for naught but their pride. She who made us in our craddle, hated by all for origins abyssal. The angels claim us, yet it was the demons who brought life; demons that nurtured us.
+
+lore.Testament_Of_The_Matriarch.title = Testament of the Matriarch
+lore.Testament_Of_The_Matriarch.author = Elder Lich Vy'Lax Bythe
+lore.Testament_Of_The_Matriarch.page0.text = Let it be known, through all of Nytha, that the Matriarch still breathes. The heavens try yet in vain to snap the horns of the Sovereign of the Depths, and shall continue to do so. In the face of this inquisition, the Matriarch shall bring them what they sow. All of Nytha know this, the Last Candle...
+lore.Testament_Of_The_Matriarch.page1.text = ...can be found within the depths of the last stronghold. Through there we shall find refuge, and all of Nytha shall yet be saved. So do not yet find despair, the angels can not take from us what they can not lay their cloying gaze upon. Further into the depths must we descend, but the Abyss...
+lore.Testament_Of_The_Matriarch.page2.text = ...can not hide us from the eyes of the divine for eternity. Thus it has fallen upon the Great Lord Vernaken to gaurd the tomb till Nytha is but from a time immemorial to the heavens. Their sacrifice shall be what keeps our safety assured, and along with them, the Nythan Fifth Regiment shall remain...
+lore.Testament_Of_The_Matriarch.page3.text = ...to assist the Lord. Pay respects now for them while they still walk amongst us, for this shall be the last you will see of them. They will guard us till the flesh sloughs from their bones, and even then their bodies will not still. Such is the dedication of the Nythan people, though we may yet lose the Wileg...
+lore.Testament_Of_The_Matriarch.page4.text = ...steppes, our lives have yet to end. For was it not she who granted us the knowledge of life and death? Was it not in her name that we learned the art of necromancy? Nay, we Nythans are not so weak willed that we shall let the Holy Tyrants conquer us so, we shall fight till our last, so that Nythans may once...
+lore.Testament_Of_The_Matriarch.page5.text = ...more know peace, even if the cost is our own lives, we shall pay it, and we shall pay it in full. Let the angels know the will of the Nythans! The heavens shall have no power of the Bythe! For the Matriarch still breathes, and the Uplic Sovereign has not the power to change that as long as we draw breath!

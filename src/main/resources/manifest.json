@@ -12,7 +12,9 @@
   ],
   "Website": "https://your-plugin-website.com",
   "ServerVersion": "*",
-  "Dependencies": {},
+  "Dependencies": {
+    "Buuz135:MultipleHUD": ">=1.0.3"
+  },
   "OptionalDependencies": {},
   "DisabledByDefault": false,
   "IncludesAssetPack": true,

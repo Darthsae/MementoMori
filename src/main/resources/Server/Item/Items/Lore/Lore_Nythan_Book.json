@@ -1,0 +1,105 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Lore_Nythan_Book.name",
+    "Description": "server.items.Lore_Nythan_Book.description"
+  },
+  "Categories": [
+    "Items.Lore"
+  ],
+  "Icon": "Icons/ItemsGenerated/Lore_Nythan_Book.png",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Model": "Items/Lore/Book.blockymodel",
+  "Texture": "Items/Lore/Book_Brown_Texture.png",
+  "PlayerAnimationsId": "Spellbook",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      0,
+      134,
+      332
+    ],
+    "Translation": [
+      4,
+      -9
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Spectral_Remnant",
+        "Quantity": 12
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Forsaken_Altar_Crafting"
+        ],
+        "RequiredTierLevel": 2,
+        "Id": "Forsaken_Altar"
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Type": "Simple",
+      "RunTime": 0.1,
+      "Effects": {
+        "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+        "LocalSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge"
+      },
+      "Interactions": [
+        {
+          "Type": "OpenLorePage",
+          "Name": "Testament_Of_The_Matriarch",
+          "PageCount": 6
+        }
+      ]
+    },
+    "Secondary": {
+      "Type": "Simple",
+      "RunTime": 0.1,
+      "Effects": {
+        "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+        "LocalSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge"
+      },
+      "Interactions": [
+        {
+          "Type": "OpenLorePage",
+          "Name": "Testament_Of_The_Matriarch",
+          "PageCount": 6
+        }
+      ]
+    }
+  },
+  "InteractionVars": {},
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxStack": 1,
+  "Scale": 1.2,
+  "Tags": {
+    "Type": [
+      "Lore"
+    ],
+    "Family": [
+      "Book",
+      "ForgottenNytha"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Weapons_Books"
+}

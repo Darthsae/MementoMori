@@ -1,0 +1,66 @@
+$Common = "Common.ui";
+
+@ButtonsPaperActivate = "Sounds/PageFlip.ogg";
+@ButtonsPaperHover = "Sounds/ButtonsLightHover.ogg";
+
+@ButtonsPaper = (
+  Activate: (
+    SoundPath: @ButtonsPaperActivate,
+    MinPitch: -0.4,
+    MaxPitch: 0.4,
+    Volume: 4
+  ),
+  MouseHover: (
+    SoundPath: @ButtonsPaperHover,
+    Volume: 6
+  )
+);
+
+$Common.@PageOverlay {}
+
+$Common.@DecoratedContainer {
+  Anchor: (Width: 740, Height: 480);
+
+  #Title {
+    Label #TitleText {
+      Style: (...$Common.@TitleStyle, HorizontalAlignment: Center);
+      Padding: (Horizontal: 19);
+    }
+  }
+
+  #Content {
+    FlexWeight: 1;
+
+    Label #AuthorText {
+      Style: (...$Common.@TitleStyle, HorizontalAlignment: Center);
+      Padding: (Horizontal: 19);
+    }
+
+    Label #ContentText {
+      Style: (...$Common.@DefaultLabelStyle, HorizontalAlignment: Center, Wrap: true);
+      Padding: (Full: 19);
+    }
+
+    Group {
+      LayoutMode: Bottom;
+      FlexWeight: 1;
+      Padding: (Full: 0);
+
+      Group {
+        LayoutMode: Center;
+
+        $Common.@TextButton #PreviousButton {
+          Style: (...@DefaultTextButtonStyle, Sounds: (...@ButtonsPaper));
+          Text: %server.customUI.changeModelPage.scale;
+          FlexWeight: 1;
+        }
+
+        $Common.@TextButton #NextButton {
+          Style: (...@DefaultTextButtonStyle, Sounds: (...@ButtonsPaper));
+          Text: %server.customUI.changeModelPage.scale;
+          FlexWeight: 1;
+        }
+      }
+    }
+  }
+}

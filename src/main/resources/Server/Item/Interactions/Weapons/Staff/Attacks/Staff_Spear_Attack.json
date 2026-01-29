@@ -23,6 +23,26 @@
         "Staff_Swing_Down"
       ]
     },
-    "1": "Staff_Throw_Charged"
+    "1": "Staff_Throw_Charged",
+    "3": {
+      "Type": "ApplyForce",
+      "Direction": {
+        "X": 0,
+        "Y": 3,
+        "Z": -15
+      },
+      "AdjustVertical": true,
+      "WaitForGround": false,
+      "Force": 35,
+      "VelocityConfig": {
+        "AirResistance": 0.99,
+        "AirResistanceMax": 0.98,
+        "GroundResistance": 0.8,
+        "GroundResistanceMax": 0.78,
+        "Threshold": 3.0,
+        "Style": "Linear"
+      },
+      "ChangeVelocityType": "Add"
+    }
   }
 }

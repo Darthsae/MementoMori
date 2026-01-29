@@ -1,0 +1,85 @@
+{
+  "Type": "Charging",
+  "Effects": {
+    "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+    "ItemAnimationId": "CastHurlCharging",
+    "Particles": [
+      {
+        "SystemId": "Praetorian_Summon_Ground",
+        "TargetEntityPart": "Entity"
+      }
+    ]
+  },
+  "AllowIndefiniteHold": true,
+  "HorizontalSpeedMultiplier": 0.8,
+  "CancelOnItemChange": true,
+  "RunTime": 0,
+  "Next": {
+    "0": {
+      "Type": "RunOnBlockTypes",
+      "BlockSets": [
+        "Rubble",
+        "Bushes",
+        "Trash"
+      ],
+      "MaxCount": 2,
+      "Range": 8,
+      "Interactions": {
+        "Interactions": [
+          {
+            "Type": "SpawnNPC",
+            "EntityId": "Servas"
+          }
+        ]
+      },
+      "Next": {
+        "Type": "Simple",
+        "Effects": {
+          "ItemAnimationId": "CastHurlCharged"
+        }
+      },
+      "Failed": {
+        "Type": "Simple",
+        "Effects": {
+          "ItemAnimationId": "Interact"
+        }
+      }
+    },
+    "2.5": {
+      "Type": "RunOnBlockTypes",
+      "BlockSets": [
+        "Rubble",
+        "Bushes",
+        "Trash"
+      ],
+      "MaxCount": 7,
+      "Range": 8,
+      "Interactions": {
+        "Interactions": [
+          {
+            "Type": "SpawnNPC",
+            "EntityId": "Servas"
+          }
+        ]
+      },
+      "Next": {
+        "Type": "Simple",
+        "Effects": {
+          "ItemAnimationId": "CastHurlCharged"
+        }
+      },
+      "Failed": {
+        "Type": "Simple",
+        "Effects": {
+          "ItemAnimationId": "Interact"
+        }
+      }
+    }
+  },
+  "Failed": {
+    "Type": "Simple",
+    "Effects": {
+      "ItemAnimationId": "Interact"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Bench_Forsaken_Altar.name",
+    "Description": "server.items.Bench_Forsaken_Altar.description"
+  },
+  "Recipe": {
+    "KnowledgeRequired": true,
+    "TimeSeconds": 8,
+    "Input": [
+      {
+        "Quantity": 8,
+        "ResourceTypeId": "Rock"
+      },
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Deco_Bone_Skulls"
+      },
+      {
+        "Quantity": 8,
+        "ResourceTypeId": "Ingredient_Bar_Silver"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Forsaken_Altar.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Forsaken_Altar.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Forsaken_Altar_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Forsaken_Altar_Crafting",
+          "Icon": "Icons/CraftingCategories/Workbench/Processing.png",
+          "Name": "server.benchCategories.forsaken_altar.crafting"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Forsaken_Altar",
+      "TierLevels": [
+        {
+          "CraftingTimeReductionModifier": 0.0,
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Rock",
+                "Quantity": 30
+              },
+              {
+                "ItemId": "Ingredient_Bar_Silver",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Deco_Bone_Ribs",
+                "Quantity": 20
+              }
+            ],
+            "TimeSeconds": 5.0
+          }
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Ingredient_Bar_Silver",
+                "Quantity": 30
+              },
+              {
+                "ItemId": "Ingredient_Bar_Cobalt",
+                "Quantity": 20
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+                "Quantity": 50
+              },
+              {
+                "ItemId": "Ingredient_Fire_Essence",
+                "Quantity": 25
+              }
+            ],
+            "TimeSeconds": 10.0
+          },
+          "CraftingTimeReductionModifier": 0.15
+        },
+        {
+          "CraftingTimeReductionModifier": 0.3
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "Tier2": {
+          "CustomModel": "Blocks/Benches/Forsaken_Altar.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Forsaken_Altar_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench"
+        },
+        "Tier3": {
+          "CustomModel": "Blocks/Benches/Forsaken_Altar.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Benches/Forsaken_Altar_Texture.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Bench_Workbench"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#6e4a2f",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.42,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      12.9,
+      -11.7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}

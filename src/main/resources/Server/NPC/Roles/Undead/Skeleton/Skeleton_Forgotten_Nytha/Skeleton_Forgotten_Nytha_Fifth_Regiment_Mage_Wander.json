@@ -1,0 +1,13 @@
+{
+  "Type": "Variant",
+  "Reference": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage",
+  "Modify": {
+    "WanderRadius": 7,
+    "Patrol": true,
+    "FlockArray": [
+      "Skeleton_Forgotten_Nytha_Fifth_Regiment_Soldier_Wander",
+      "Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage_Wander"
+    ],
+    "ApplySeparation": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Type": "Charging",
+  "Effects": {
+    "ItemAnimationId": "CastSummonCharging"
+  },
+  "AllowIndefiniteHold": true,
+  "HorizontalSpeedMultiplier": 0.5,
+  "MouseSensitivityAdjustmentTarget": 0.2,
+  "DisplayProgress": true,
+  "Forks": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Staff_Summon",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              "Staff_Summon"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "CancelOnOtherClick": true,
+  "Next": {
+    "0": {
+      "Type": "Chaining",
+      "ChainingAllowance": 1.25,
+      "Next": [
+        "Spear_Swing_Left",
+        "Spear_Swing_Right"
+      ]
+    },
+    "1": "Staff_Cast_Summon_Charged",
+    "1.5": "Staff_Summon",
+    "2.5": "Staff_Slam_Stun",
+    "5": "Staff_Slam_Doom"
+  }
+}

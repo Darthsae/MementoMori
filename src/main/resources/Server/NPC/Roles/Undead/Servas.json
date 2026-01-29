@@ -1,0 +1,28 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Summoned_Ally",
+  "Modify": {
+    "MaxHealth": 74,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "Appearance": "Servas",
+    "Weapons": [
+      "Weapon_Sword_Iron"
+    ],
+    "OffHand": [
+      "Weapon_Shield_Iron"
+    ],
+    "DefaultOffHandSlot": 0,
+    "FlockArray": [
+      "Servas"
+    ],
+    "Attack": "Root_NPC_Skeleton_Forgotten_Nytha_Fifth_Regiment_Soldier_Attack",
+    "AttackDistance": 3,
+    "DesiredAttackDistanceRange": [
+      2,
+      2.5
+    ],
+    "ApplySeparation": true,
+    "NameTranslationKey": "server.npcRoles.Servas.name"
+  }
+}

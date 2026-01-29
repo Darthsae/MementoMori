@@ -1,0 +1,36 @@
+{
+  "Parent": "Zombie",
+  "Texture": "NPC/Undead/Zombie/Models/Zombie.png",
+  "EyeHeight": 1.5,
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes_Blue.png"
+    },
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long_Textures/Tunic_Torn_Long_Violet.png"
+    },
+    {
+      "Model": "Items/Armors/Iron/Chest.blockymodel",
+      "Texture": "Items/Armors/Iron/Chest_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Iron/Hands.blockymodel",
+      "Texture": "Items/Armors/Iron/Hands_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Iron/Legs.blockymodel",
+      "Texture": "Items/Armors/Iron/Legs_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Iron/Head.blockymodel",
+      "Texture": "Items/Armors/Iron/Head_Texture.png"
+    }
+  ],
+  "Particles": [
+    {
+      "SystemId": "Praetorian_Summon_Spawn"
+    }
+  ]
+}

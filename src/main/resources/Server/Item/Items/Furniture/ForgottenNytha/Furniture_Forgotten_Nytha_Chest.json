@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Furniture_Forgotten_Nytha_Chest.name"
+    "Name": "server.items.Furniture_Forgotten_Nytha_Chest.name",
+    "Description": "server.items.Furniture_Forgotten_Nytha_Chest.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -34,10 +35,10 @@
   "BlockType": {
     "BlockParticleSetId": "Wood",
     "BlockSoundSetId": "Wood",
-    "CustomModel": "Blocks/Dungeons/Chest_Epic_Small.blockymodel",
+    "CustomModel": "Blocks/Decorative_Sets/Forgotten_Nytha/Chest_Small.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Dungeons/Chest_Epic_Small_Texture.png",
+        "Texture": "Blocks/Decorative_Sets/Forgotten_Nytha/Chest_Small_Texture.png",
         "Weight": 1
       }
     ],

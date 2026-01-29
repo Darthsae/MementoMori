@@ -49,10 +49,10 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Arcane_Misc"
+          "Forsaken_Altar_Crafting"
         ],
-        "RequiredTierLevel": 2,
-        "Id": "Arcanebench"
+        "RequiredTierLevel": 1,
+        "Id": "Forsaken_Altar"
       }
     ]
   },

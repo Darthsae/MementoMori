@@ -1,0 +1,106 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/White.png",
+  "EyeHeight": 1.5,
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes_Red.png"
+    },
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long_Textures/Tunic_Torn_Long_Purple.png"
+    },
+    {
+      "Model": "Cosmetics/Gloves/LongDetail_Gloves.blockymodel",
+      "Texture": "Cosmetics/Gloves/LongDetail_Gloves_Textures/LongDetail_Gloves_Void_Hero_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Onyxium/Legs.blockymodel",
+      "Texture": "Items/Armors/Onyxium/Legs_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Orbis_Knight/Chest.blockymodel",
+      "Texture": "Items/Armors/Orbis_Knight/Chest_Texture.png"
+    }
+  ],
+  "RandomAttachmentSets": {
+    "Head": {
+      "White_Braid": {
+        "Model": "Characters/Haircuts/ThickBraid.blockymodel",
+        "Texture": "Characters/Haircuts/ThickBraid_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "White_Tied": {
+        "Model": "Characters/Haircuts/LongTied.blockymodel",
+        "Texture": "Characters/Haircuts/LongTied_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "White_Stylish": {
+        "Model": "Characters/Haircuts/Stylish.blockymodel",
+        "Texture": "Characters/Haircuts/Stylish_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "White",
+        "Weight": 1
+      },
+      "Brown_Darker_Braid": {
+        "Model": "Characters/Haircuts/ThickBraid.blockymodel",
+        "Texture": "Characters/Haircuts/ThickBraid_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownDarker",
+        "Weight": 0.5
+      },
+      "Brown_Darker_Tied": {
+        "Model": "Characters/Haircuts/LongTied.blockymodel",
+        "Texture": "Characters/Haircuts/LongTied_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownDarker",
+        "Weight": 0.5
+      },
+      "Brown_Darker_Stylish": {
+        "Model": "Characters/Haircuts/Stylish.blockymodel",
+        "Texture": "Characters/Haircuts/Stylish_Greyscale.png",
+        "GradientSet": "Hair",
+        "GradientId": "BrownDarker",
+        "Weight": 0.5
+      },
+      "Raven_Hood": {
+        "Model": "Items/Armors/Leather_Raven/Head.blockymodel",
+        "Texture": "Items/Armors/Leather_Raven/Head_Texture.png",
+        "Weight": 0.75
+      },
+      "Cobalt_Helm": {
+        "Model": "Items/Armors/Cobalt/Head.blockymodel",
+        "Texture": "Items/Armors/Cobalt/Head_Texture.png",
+        "Weight": 0.5
+      }
+    },
+    "Face": {
+      "Peeking_Bandage": {
+        "Model": "Cosmetics/Face_Accessories/Blindfold.blockymodel",
+        "Texture": "Cosmetics/Face_Accessories/Blindfold_Textures/Blindfold_Bandage_Peeking.png"
+      },
+      "Thick": {
+        "Model": "Cosmetics/Face_Accessories/Blindfold.blockymodel",
+        "Texture": "Cosmetics/Face_Accessories/Blindfold_Textures/Blindfold_Thick.png",
+        "GradientSet": "Faded_Leather",
+        "GradientId": "Purple"
+      },
+      "Thin_Bandage": {
+        "Model": "Cosmetics/Face_Accessories/Blindfold.blockymodel",
+        "Texture": "Cosmetics/Face_Accessories/Blindfold_Textures/Blindfold_Bandage_Thin.png",
+        "GradientSet": "Fantasy_Cotton_Dark",
+        "GradientId": "Purple"
+      },
+      "Eyepatch": {
+        "Model": "Cosmetics/Face_Accessories/EyePatch.blockymodel",
+        "Texture": "Cosmetics/Face_Accessories/EyePatch_Texture.png",
+        "Weight": 0.1
+      }
+    }
+  }
+}

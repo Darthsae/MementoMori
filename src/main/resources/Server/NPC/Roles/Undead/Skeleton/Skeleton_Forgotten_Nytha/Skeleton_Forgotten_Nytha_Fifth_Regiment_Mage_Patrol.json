@@ -1,0 +1,8 @@
+{
+  "Type": "Variant",
+  "Reference": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage",
+  "Modify": {
+    "Patrol": true,
+    "FollowPatrolPath": true
+  }
+}

@@ -27,6 +27,18 @@
             }
           }
         ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 5,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Recipe_Bench_Forsaken_Altar_Scrap"
+            }
+          }
+        ]
       }
     ]
   }

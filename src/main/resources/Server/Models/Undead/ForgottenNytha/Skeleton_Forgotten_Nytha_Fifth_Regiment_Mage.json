@@ -1,0 +1,27 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/White.png",
+  "EyeHeight": 1.5,
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes_Blue.png"
+    },
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Chest/Tunic_Torn_Long_Textures/Tunic_Torn_Long_Purple.png"
+    },
+    {
+      "Model": "Cosmetics/Gloves/LongDetail_Gloves.blockymodel",
+      "Texture": "Cosmetics/Gloves/LongDetail_Gloves_Textures/LongDetail_Gloves_Void_Hero_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Onyxium/Legs.blockymodel",
+      "Texture": "Items/Armors/Onyxium/Legs_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Trailer_Mage/Head.blockymodel",
+      "Texture": "Items/Armors/Trailer_Mage/Head_Texture.png"
+    }
+  ]
+}

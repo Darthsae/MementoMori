@@ -1,0 +1,97 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Recipe_Bench_Forsaken_Altar.name",
+    "Description": "server.items.Recipe_Bench_Forsaken_Altar.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Quality": "Rare",
+  "Categories": [
+    "Items.Recipes"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "IconProperties": {
+    "Scale": 0.76,
+    "Rotation": [
+      135,
+      135,
+      0
+    ],
+    "Translation": [
+      -1,
+      5
+    ]
+  },
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Recipe_Bench_Forsaken_Altar_Scrap",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Misc"
+        ],
+        "RequiredTierLevel": 2,
+        "Id": "Arcanebench"
+      }
+    ]
+  },
+  "Consumable": true,
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "ItemId": "Recipe_Bench_Forsaken_Altar",
+          "Type": "LearnRecipe",
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "ItemId": "Recipe_Bench_Forsaken_Altar",
+          "Type": "LearnRecipe",
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
+          }
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Recipe"
+    ],
+    "Family": [
+      "Food"
+    ]
+  },
+  "MaxStack": 10,
+  "InteractionConfig": {
+    "UseDistance": {
+      "Adventure": 128,
+      "Creative": 128
+    },
+    "AllEntities": true
+  }
+}

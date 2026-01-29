@@ -16,11 +16,25 @@
         <hytale.mods.dir>C:\Users\sockm\AppData\Roaming\Hytale\UserData\Mods</hytale.mods.dir>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>HM-releases</id>
+            <name>Hytale-Modding.info Maven</name>
+            <url>https://maven.hytale-mods.dev/releases</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.hypixel.hytale</groupId>
             <artifactId>HytaleServer-parent</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.buuz135</groupId>
+            <artifactId>MultipleHUD</artifactId>
+            <version>1.0.3</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

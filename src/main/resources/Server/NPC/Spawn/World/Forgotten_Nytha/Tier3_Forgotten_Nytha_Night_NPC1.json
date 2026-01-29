@@ -1,0 +1,74 @@
+{
+  "Environments": [
+    "Env_Zone1_Forests",
+    "Env_Zone1_Autumn",
+    "Env_Zone1_Mountains",
+    "Env_Zone2_Plateaus",
+    "Env_Zone2_Scrub",
+    "Env_Zone3_Forests",
+    "Env_Zone3_Mountains"
+  ],
+  "MoonPhaseWeightModifiers": [
+    0.5,
+    1,
+    2,
+    2,
+    1
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Soldier",
+      "Flock": {
+        "Size": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "Weight": 2,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Soldier_Wander",
+      "Flock": {
+        "Size": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "Weight": 2,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage",
+      "Flock": {
+        "Size": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "Weight": 1,
+      "SpawnBlockSet": "Soil",
+      "Id": "Skeleton_Forgotten_Nytha_Fifth_Regiment_Mage_Wander",
+      "Flock": {
+        "Size": [
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "DayTimeRange": [
+    0,
+    24
+  ],
+  "LightRanges": {
+    "Light": [
+      0,
+      8
+    ]
+  }
+}

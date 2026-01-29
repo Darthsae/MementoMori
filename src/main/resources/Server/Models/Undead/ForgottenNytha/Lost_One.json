@@ -1,0 +1,326 @@
+{
+  "Model": "NPC/Undead/Lost_One/Models/Model.blockymodel",
+  "Texture": "NPC/Undead/Lost_One/Models/Texture.png",
+  "EyeHeight": 0.7,
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 0.6,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Y": 0,
+      "Z": -0.3
+    }
+  },
+  "MinScale": 1.4,
+  "MaxScale": 1.4,
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 60,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Belly"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Belly"
+      ]
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Idle"
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Fly_Movement"
+        }
+      ]
+    },
+    "WalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Fly_Movement"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Run.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Fly_Movement"
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Jump.blockyanim",
+          "Speed": 2
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Jump.blockyanim",
+          "Speed": 2
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Jump.blockyanim",
+          "Speed": 2
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Alerted": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Alerted.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Eye_Void_Alerted"
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Idle"
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Fly_Movement"
+        }
+      ]
+    },
+    "FlyBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Run.blockyanim",
+          "BlendingDuration": 0.4,
+          "SoundEventId": "SFX_Eye_Void_Fly_Movement"
+        }
+      ]
+    },
+    "SwimIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Swim": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Run.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimJump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Jump.blockyanim",
+          "Speed": 2
+        }
+      ]
+    },
+    "SwimSink": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimDive": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimDiveBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "SwimDiveFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Run.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FluidIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Idle.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FluidWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Walk_Backward.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Damage/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false,
+          "SoundEventId": "SFX_Eye_Void_Hurt"
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Damage/Death.blockyanim",
+          "Looping": false,
+          "SoundEventId": "SFX_Eye_Void_Death"
+        }
+      ]
+    },
+    "Laydown": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Laydown.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Sleep.blockyanim",
+          "BlendingDuration": 0.2
+        }
+      ]
+    },
+    "Wake": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Wake.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Spawn.blockyanim",
+          "BlendingDuration": 0,
+          "Looping": false
+        }
+      ]
+    },
+    "Despawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Undead/Lost_One/Animations/Default/Despawn.blockyanim",
+          "Looping": false
+        }
+      ]
+    }
+  },
+  "Particles": []
+}

@@ -1,0 +1,31 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Recipe_Bench_Forsaken_Altar_Scrap.name",
+    "Description": "server.items.Ingredient_Recipe_Bench_Forsaken_Altar_Scrap.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Recipe_Page.png",
+  "Quality": "Rare",
+  "Categories": [
+    "Items.Recipes"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Model": "Items/Consumables/Recipes/Recipe.blockymodel",
+  "Texture": "Items/Consumables/Recipes/Recipe_Texture.png",
+  "IconProperties": {
+    "Scale": 0.76,
+    "Rotation": [
+      135,
+      135,
+      0
+    ],
+    "Translation": [
+      -1,
+      5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  }
+}

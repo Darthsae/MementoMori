@@ -1,0 +1,25 @@
+$Common = "Common.ui";
+
+@BackgroundTexture = PatchStyle(TexturePath: "CorruptionHUDBackground.png");
+
+Group {
+  LayoutMode: Top;
+
+  Group #CorruptionHUDPanel {
+    Background: @BackgroundTexture;
+    Anchor: (Left: 32, Width: 124, Height: 32);
+    LayoutMode: Top;
+
+    ProgressBar #ProgressBar {
+      Anchor: (Width: 124, Height: 32);
+      BarTexturePath: "CorruptionHUDFill.png";
+    }
+
+    Label #CorruptionHUDLabel {
+      Style: (FontSize: 32, Alignment: Center);
+      Anchor: (Top: 50);
+      Text: "Corruption";
+      Padding: (Full: 10);
+    }
+  }
+}

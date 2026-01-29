@@ -13,7 +13,7 @@
   "PlayerAnimationsId": "Staff",
   "Interactions": {
     "Primary": "Staff_Spear_Attack",
-    "Secondary": "Staff_Primary"
+    "Secondary": "Staff_Slam_Primary"
   },
   "InteractionVars": {
     "Spear_Stab_Effect": {

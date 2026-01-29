@@ -1,0 +1,20 @@
+{
+  "StatModifiers": {
+    "Health": 50,
+    "Stamina": 5
+  },
+  "Duration": 10,
+  "ApplicationEffects": {
+    "EntityBottomTint": "#4f4fdf",
+    "ModelVFXId": "Intangible_Dark",
+    "ScreenEffect": "ScreenEffects/Snow.png",
+    "EntityTopTint": "#a2a2ff",
+    "HorizontalSpeedMultiplier": 0.5
+  },
+  "DamageCalculatorCooldown": 3,
+  "OverlapBehavior": "Extend",
+  "RemovalBehavior": "Duration",
+  "Infinite": false,
+  "Debuff": true,
+  "StatusEffectIcon": "UI/StatusEffects/Poison.png"
+}

@@ -1,0 +1,33 @@
+{
+  "Parent": "Skeleton",
+  "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/White.png",
+  "DefaultAttachments": [
+    {
+      "Model": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes.blockymodel",
+      "Texture": "NPC/Undead/Skeleton/Models/Attachments/Cosmetics/Head/Eyes/Eyes_Red.png"
+    },
+    {
+      "Model": "Items/Armors/Necromancer_Set/Chest.blockymodel",
+      "Texture": "Items/Armors/Necromancer_Set/Chest_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Necromancer_Set/Hands.blockymodel",
+      "Texture": "Items/Armors/Necromancer_Set/Hands_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Necromancer_Set/Shirt.blockymodel",
+      "Texture": "Items/Armors/Necromancer_Set/Shirt_Texture.png"
+    },
+    {
+      "Model": "Items/Armors/Necromancer_Set/Legs.blockymodel",
+      "Texture": "Items/Armors/Necromancer_Set/Legs_Texture.png"
+    },
+    {
+      "Model": "Cosmetics/Head/Headband.blockymodel",
+      "Texture": "Cosmetics/Head/Headband_Textures/Headband_Greyscale_Texture.png",
+      "GradientSet": "Faded_Leather",
+      "GradientId": "Purple"
+    }
+  ],
+  "Model": "NPC/Undead/Skeleton/Models/Model.blockymodel"
+}

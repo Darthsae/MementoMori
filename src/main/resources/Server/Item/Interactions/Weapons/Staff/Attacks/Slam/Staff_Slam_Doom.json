@@ -1,0 +1,126 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "EffectId": "Mana_Overload"
+    },
+    {
+      "Type": "Selector",
+      "Selector": {
+        "Id": "AOECircle",
+        "Range": 9
+      },
+      "Effects": {
+        "Particles": [
+          {
+            "SystemId": "ForgottenTemple_Beam",
+            "TargetEntityPart": "Entity",
+            "RotationOffset": {
+              "Pitch": 0.0,
+              "Roll": -90.0,
+              "Yaw": 0.0
+            },
+            "PositionOffset": {
+              "Y": 0.0
+            },
+            "Scale": 2.5
+          },
+          {
+            "SystemId": "Explosion_Big",
+            "TargetEntityPart": "Entity"
+          }
+        ],
+        "ItemPlayerAnimationsId": "Longsword",
+        "ItemAnimationId": "SwingDown",
+        "WorldSoundEventId": "SFX_Staff_Spectre_Slam"
+      },
+      "HitEntity": {
+        "Interactions": [
+          {
+            "Type": "EffectCondition",
+            "Entity": "Target",
+            "EntityEffectIds": [
+              "Immune"
+            ],
+            "Match": "None",
+            "Next": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "ChangeStat",
+                  "Entity": "Target",
+                  "StatModifiers": {
+                    "Immunity": 25
+                  }
+                },
+                {
+                  "Type": "Interrupt",
+                  "Entity": "Target",
+                  "ExcludedTag": "Uninterruptable"
+                },
+                {
+                  "Type": "ApplyEffect",
+                  "EffectId": "Stun",
+                  "Entity": "Target"
+                },
+                {
+                  "Type": "ApplyEffect",
+                  "EffectId": "Rot",
+                  "Entity": "Target"
+                },
+                {
+                  "Parent": "DamageEntityParent",
+                  "DamageCalculator": {
+                    "BaseDamage": {
+                      "Physical": 45,
+                      "Fire": 45
+                    }
+                  },
+                  "DamageEffects": {
+                    "Knockback": {
+                      "Type": "Force",
+                      "VelocityConfig": {
+                        "AirResistance": 0.97,
+                        "AirResistanceMax": 0.96,
+                        "GroundResistance": 0.94,
+                        "GroundResistanceMax": 0.3,
+                        "Threshold": 3.0,
+                        "Style": "Exp"
+                      },
+                      "Force": 35,
+                      "VelocityType": "Add"
+                    },
+                    "WorldSoundEventId": "SFX_Staff_Spectre_Explode",
+                    "WorldParticles": [
+                      {
+                        "SystemId": "Explosion_Big",
+                        "Scale": 1.5
+                      },
+                      {
+                        "SystemId": "ForgottenTemple_Beam",
+                        "TargetEntityPart": "Entity",
+                        "RotationOffset": {
+                          "Pitch": 0.0,
+                          "Roll": -90.0,
+                          "Yaw": 0.0
+                        },
+                        "PositionOffset": {
+                          "Y": 0.0
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Next": {
+        "Type": "Simple",
+        "RunTime": 0.1
+      }
+    }
+  ]
+}

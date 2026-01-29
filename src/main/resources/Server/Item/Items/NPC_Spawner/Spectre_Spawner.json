@@ -79,10 +79,10 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Arcanebench",
+        "Id": "Forsaken_Altar",
         "Type": "Crafting",
         "Categories": [
-          "Arcane_Portals"
+          "Forsaken_Altar_Crafting"
         ]
       }
     ],
